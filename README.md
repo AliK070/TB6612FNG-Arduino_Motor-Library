@@ -45,4 +45,11 @@ switchMotor(in1A, in2A, pwmM, in1B, in2B, MotorSpeed);
 ### How to use it: 
 
 After calling the function, you can run your code and check for any erros. Once it is running, in the terminal you can type the **1** for the motors to spin clockwise, **2** for the motors to spin counterclockwise and **3** to make the motors stop. 
+```c++
+
+1 == CW
+2 == CCW
+3 == STOP 
+
+```
 
