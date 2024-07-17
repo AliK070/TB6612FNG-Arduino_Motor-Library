@@ -12,3 +12,18 @@ You must first include the header file in your arduino code:
 #include "motor_lib.h"
 
 ```
+After this you must setup your pin definitions or assign them, here is an example: 
+
+```c++
+//Power
+#define pwmM 11
+
+// Motor A
+#define in1A 12
+#define in2A 13
+ 
+// Motor B
+#define in1B 7
+#define in2B 8
+```
+Remember you do not have to use the same pin defintions as shown this example. Your in1 and in2 pins can be connected to the digital pins while the power itself must be connected to an analog pin, as you can control the motor speed from values of 0 to 255, 0 being off and 255 being full speed.
