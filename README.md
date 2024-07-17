@@ -4,7 +4,7 @@
 
 A simple library you can use to test out the TB6612FNG H-bridge. The following includes a list of commands that you can execute with the serial monitor. 
 
-### Using this library: 
+### Setup up: 
 
 You must first include the header file in your arduino code: 
 
@@ -41,4 +41,8 @@ Here is an example using the pin definitions I showed you before:
 ```c++
 switchMotor(in1A, in2A, pwmM, in1B, in2B, MotorSpeed);
 ```
+
+###How to use it: 
+
+After calling the function, you can run your code and check for any erros. Once it is running, in the terminal you can type the **1** for the motors to spin clockwise, **2** for the motors to spin counterclockwise and **3** to make the motors stop. 
 
