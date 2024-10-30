@@ -54,4 +54,4 @@ After calling the function, you can run your code and check for any erros. Once 
 ```
 ### Check out how its used:
 
-You can go to my Arduno Car Project over here (https://github.com/AliK070/Arduino-Car-Project)
+You can go to my [Arduino Car Project](https://github.com/AliK070/Arduino-Car-Project) over here. You'll see how I implement this code within my car project and you can use that towards your own usage.
